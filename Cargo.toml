@@ -1,0 +1,12 @@
+[package]
+name = "openssl-x509ext"
+version = "0.1.0"
+authors = ["Stefan Bühler <stbuehler@web.de>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.79"
+openssl = { git = "https://github.com/sfackler/rust-openssl", rev = "742db0d37f3afae50557c9951b44c19d5b1be484" }
+openssl-sys = { git = "https://github.com/sfackler/rust-openssl", rev = "742db0d37f3afae50557c9951b44c19d5b1be484" }
+foreign-types = "0.3"
+cfg-if = "0.1.10"
